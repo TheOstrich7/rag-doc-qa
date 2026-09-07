@@ -1,0 +1,29 @@
+# ---- 核心链路 ----
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-openai>=0.2
+langchain-text-splitters>=0.3
+langgraph>=0.2
+faiss-cpu>=1.8
+pypdf>=4.3
+
+# ---- 配置 / 工具 ----
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+tiktoken>=0.7
+
+# ---- Embedding 后端（按需，可只装一个）----
+# fastembed：ONNX 推理，体积小、无需 torch，默认后端
+fastembed>=0.4
+# sentence-transformers：效果更好，但会拉 torch（可选）
+# sentence-transformers>=3.0
+
+# ---- 语料生成 / 可视化 / 界面 ----
+reportlab>=4.1
+matplotlib>=3.8
+streamlit>=1.36
+
+# ---- 测试 ----
+pytest>=8.2
