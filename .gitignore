@@ -1,0 +1,22 @@
+# 环境变量 / 密钥
+.env
+.env.*
+
+# 虚拟环境
+.venv/
+venv/
+
+# 生成的产物
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# 向量库 / 中间产物
+storage/
+data/sample_knowledge_base.pdf
+results/raw_records.jsonl
+results/report.json
+results/report.md
+results/compare.png
