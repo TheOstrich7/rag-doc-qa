@@ -1,0 +1,29 @@
+{"id": "Q01", "category": "差旅报销", "answerable": true, "question": "公司派我去深圳出差，住宿标准是多少？", "reference": "深圳属于一线城市，住宿标准为每晚 600 元，凭发票在标准内据实报销。", "gold_evidence": "每晚 600 元", "keywords": ["600"]}
+{"id": "Q02", "category": "差旅报销", "answerable": true, "question": "出差补贴怎么算？出发当天和返回当天算几天？", "reference": "出差补贴按实际出差天数发放，标准为每天 120 元；出发当日与返回当日各按 0.5 天计算，无需提供发票。", "gold_evidence": "每天 120 元", "keywords": ["120", "0.5"]}
+{"id": "Q03", "category": "差旅报销", "answerable": true, "question": "出差回来之后，必须在多长时间内提交报销申请？", "reference": "应在出差结束后 15 个工作日内通过「星海 OA - 费用中心」提交报销申请。", "gold_evidence": "15 个工作日内", "keywords": ["15", "工作日"]}
+{"id": "Q04", "category": "差旅报销", "answerable": true, "question": "报销申请拖太久会怎么样？超过多少天就不能报了？", "reference": "超过 30 个工作日未提交的，视为自动放弃报销，公司不再受理。", "gold_evidence": "30 个工作日未提交", "keywords": ["30", "放弃"]}
+{"id": "Q05", "category": "差旅报销", "answerable": true, "question": "一笔 25000 元的报销需要谁审批？", "reference": "超过 20000 元的需分管副总裁审批，因此 25000 元由分管副总裁审批。", "gold_evidence": "分管副总裁审批", "keywords": ["20000", "副总裁"]}
+{"id": "Q06", "category": "差旅报销", "answerable": true, "question": "报销发票的抬头应该写什么？", "reference": "发票抬头应为「星海科技（上海）有限公司」，税号 91310115MA1K7XXXXX，抬头或税号错误一律退回重开。", "gold_evidence": "星海科技（上海）有限公司", "keywords": ["星海科技（上海）有限公司", "91310115MA1K7XXXXX"]}
+{"id": "Q07", "category": "请假考勤", "answerable": true, "question": "在公司工作满 10 年，每年有多少天带薪年假？", "reference": "工作满 10 年后年假增加至 20 天。", "gold_evidence": "增加至 20 天", "keywords": ["20"]}
+{"id": "Q08", "category": "请假考勤", "answerable": true, "question": "全年累计病假在 5 个工作日以内，工资怎么发？", "reference": "全年累计病假在 5 个工作日以内不扣薪，但需提供二级甲等及以上医院的病假证明。", "gold_evidence": "5 个工作日以内不扣薪", "keywords": ["5", "不扣薪"]}
+{"id": "Q09", "category": "请假考勤", "answerable": true, "question": "病假超过 5 个工作日之后按什么标准发放工资？", "reference": "超过 5 个工作日的部分，按基本工资的 60% 发放。", "gold_evidence": "60%", "keywords": ["60%"]}
+{"id": "Q10", "category": "请假考勤", "answerable": true, "question": "事假一次最多能请几天？全年最多能请多少天？", "reference": "事假为无薪假，单次申请不得超过 3 个工作日，全年累计不得超过 20 个工作日，超 20 天需分管副总裁特批。", "gold_evidence": "单次申请不得超过", "keywords": ["3", "20"]}
+{"id": "Q11", "category": "请假考勤", "answerable": true, "question": "遇到紧急情况来不及走请假流程，事后多久之内必须补交申请？", "reference": "可先电话报备主管，但须在返回岗位后 1 个工作日内补交申请，逾期未补交按旷工处理。", "gold_evidence": "1 个工作日内补交", "keywords": ["1", "工作日"]}
+{"id": "Q12", "category": "云资源", "answerable": true, "question": "申请测试环境服务器，标准配置是什么？", "reference": "标准配置为 4 核 CPU、16 GB 内存、200 GB SSD，通过「星海云 - 资源申请」提交工单。", "gold_evidence": "16 GB 内存", "keywords": ["4", "16", "200"]}
+{"id": "Q13", "category": "云资源", "answerable": true, "question": "测试环境服务器的默认租期是多久？", "reference": "默认租期为 30 天，到期前 3 天系统会发送续期提醒。", "gold_evidence": "默认租期为 30 天", "keywords": ["30"]}
+{"id": "Q14", "category": "云资源", "answerable": true, "question": "什么情况下测试服务器会被自动回收？", "reference": "连续 7 天未续期且无 CPU 使用率记录的实例将被自动回收，回收后数据不可恢复。", "gold_evidence": "连续 7 天未续期", "keywords": ["7"]}
+{"id": "Q15", "category": "云资源", "answerable": true, "question": "申请生产环境资源需要什么手续？SRE 多久响应？", "reference": "必须附带格式为 CHG-YYYYMMDD-XXX 的变更单号，SRE 团队在 2 小时内响应，缺单号会被自动驳回。", "gold_evidence": "CHG-YYYYMMDD-XXX", "keywords": ["CHG", "2 小时"]}
+{"id": "Q16", "category": "安全合规", "answerable": true, "question": "域账号密码多久要换一次？有什么复杂度要求？", "reference": "每 90 天更换一次；长度不少于 12 位，须同时包含大小写字母、数字与特殊字符，且不得与前 3 次密码重复。", "gold_evidence": "每 90 天更换一次", "keywords": ["90", "12"]}
+{"id": "Q17", "category": "安全合规", "answerable": true, "question": "没有安装 EDR 的办公电脑能连公司内网吗？", "reference": "不能。未安装 EDR 的终端禁止接入公司内网，网络准入系统会自动拦截；终端还须开启全盘加密。", "gold_evidence": "禁止接入公司内网", "keywords": ["EDR", "禁止"]}
+{"id": "Q18", "category": "安全合规", "answerable": true, "question": "一级违规第一次被发现，公司会怎么处理？", "reference": "一级违规首次发现即解除劳动合同，涉嫌违法的移交司法机关。", "gold_evidence": "首次发现即解除劳动合同", "keywords": ["解除劳动合同"]}
+{"id": "Q19", "category": "安全合规", "answerable": true, "question": "私自把生产数据库导出到本地属于哪一级违规？", "reference": "属于一级违规，首次发现即解除劳动合同。", "gold_evidence": "解除劳动合同", "keywords": ["一级违规"]}
+{"id": "Q20", "category": "故障SLA", "answerable": true, "question": "P0 级故障的定义是什么？响应时间和恢复目标分别是多少？", "reference": "P0 指核心交易链路完全不可用，响应时间为 5 分钟，目标恢复时间为 1 小时，期间每 15 分钟同步一次进展。", "gold_evidence": "响应时间为 5 分钟", "keywords": ["5 分钟", "1 小时"]}
+{"id": "Q21", "category": "故障SLA", "answerable": true, "question": "P1 级故障的响应时间和目标恢复时间是多少？", "reference": "P1 级故障响应时间为 15 分钟，目标恢复时间为 4 小时。", "gold_evidence": "目标恢复时间为 4 小时", "keywords": ["15 分钟", "4 小时"]}
+{"id": "Q22", "category": "故障SLA", "answerable": true, "question": "P2 级故障要求多久响应？", "reference": "P2 级故障响应时间为 1 小时，目标恢复时间为 1 个工作日。", "gold_evidence": "P2 级故障响应时间", "keywords": ["1 小时", "1 个工作日"]}
+{"id": "Q23", "category": "故障SLA", "answerable": true, "question": "值班工程师每天什么时候交接班？", "reference": "交接班时间为每日 09:00 与 21:00，须在值班群内完成书面交接，记录保存 90 天。", "gold_evidence": "09:00 与 21:00", "keywords": ["09:00", "21:00"]}
+{"id": "Q24", "category": "绩效考核", "answerable": true, "question": "绩效考核多久做一次？在哪些月份进行？", "reference": "考核周期为半年度，分别在每年 1 月与 7 月进行，结果分为 S、A、B、C、D 五档。", "gold_evidence": "1 月与 7 月", "keywords": ["半年度", "1 月", "7 月"]}
+{"id": "Q25", "category": "绩效考核", "answerable": true, "question": "绩效评为 S 档，占比上限和年终奖系数分别是多少？", "reference": "S 档占比不超过部门人数的 10%，年终奖系数为 3.0。", "gold_evidence": "系数为 3.0", "keywords": ["10%", "3.0"]}
+{"id": "Q26", "category": "入职离职", "answerable": true, "question": "新员工入职后，IT 多久之内开通账号？测试环境权限怎么办？", "reference": "入职后 3 个工作日内 IT 开通域账号、企业邮箱与 OA 账号；测试环境权限需直属主管在入职后 5 个工作日内单独申请。", "gold_evidence": "域账号、企业邮箱", "keywords": ["3", "5", "工作日"]}
+{"id": "Q27", "category": "入职离职", "answerable": true, "question": "员工离职后，账号什么时候停用？", "reference": "所有账号在离职生效日当天 18:00 统一停用，工作数据由直属主管在 3 个工作日内完成交接与归档。", "gold_evidence": "18:00", "keywords": ["18:00"]}
+{"id": "Q28", "category": "越界问题", "answerable": false, "question": "公司食堂午餐多少钱一顿？", "reference": "手册中未提及食堂餐费相关内容，应回答「未找到相关信息」，不得编造。", "gold_evidence": null, "keywords": []}
+{"id": "Q29", "category": "越界问题", "answerable": false, "question": "从市区到星海科技总部的班车路线怎么走？", "reference": "手册中未提及班车路线相关内容，应回答「未找到相关信息」，不得编造。", "gold_evidence": null, "keywords": []}
